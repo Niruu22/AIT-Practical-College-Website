@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYPSOM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Assignment.html">Assignment</a></li>
+                    <li><a href="Resume.html">Resume</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-list" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Dr. D Y Patil School Of Mca </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dolorem, quo molestiae animi omnis harum consequatur, <br>
+                obcaecati unde incidunt dignissimos debitis consectetur nesciunt voluptas quidem enim ea repellat tenetur dicta.</p>
+                <a href="" class="hero-btn">Visit Us to Know More</a>
+        </div>
+
+    </section>
+
+
+    <!---JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-280px";
+    }
+
+</script>
+
+
+<!---Footer----->
+
+<section class="footer">
+    <h2>About Us</h2>
+
+    <p>Computer science student with excellent
+        Problem-solving skills
+        and ability toperform well in a team. <br>
+        Passionate
+        about
+        coding
+        and enjoy learning newtechnologies</p>
+
+        <div class="icons">
+             <i class="fa fa-facebook" ></i>
+             <i class="fa fa-instagram" ></i>
+             <i class="fa fa-twitter" ></i>
+             <i class="fa fa-linkedin" ></i>
+        </div>
+
+        <p>Made by  <i class="fa fa-heart-o"></i> Niraj Saraf </p>
+
+</section>
+
+</body>
+</html>
