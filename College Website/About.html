@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+
+    <section class="sub-header">
+
+        <nav>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Assignment.html">Assignment</a></li>
+                    <li><a href="Resume.html">Resume</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-list" onclick="showMenu()"></i>
+        </nav>
+
+      <h1>About Us </h1>
+
+    </section>
+
+
+
+    <!-----About Us Content----->
+
+    <section class="about-us">
+
+        <div class="rows">
+            <div class="about-col">
+                <h1>We are in SPPU University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <br> Tempore consequatur  possimus pariatur
+                     at fugiat  vitae eos rem, <br>
+                    asperiores.Quod iure, perferendis illo modi consectetur,
+                    <br> nostrum ducimus, dolore facilis architecto exercitationem
+                    <br> temporibus qui quisquam distinctio dignissimos
+                      <br> eveniet blanditiis soluta vero sapiente expedita amet fugit sint.</p>
+                     <a href="" class="hero-btn red-btn">Explore Now</a> 
+                       
+            </div>
+
+                
+
+        </div>
+       
+        
+        
+
+    </section>
+
+
+
+
+       <!---Footer----->
+
+
+<section class="footer">
+    <h3>About Us</h3>
+
+    <p>Computer science student with excellent
+        Problem-solving skills
+        and ability toperform well in a team. <br>
+        Passionate
+        about
+        coding
+        and enjoy learning newtechnologies</p>
+
+        <div class="icons">
+             <i class="fa fa-facebook" ></i>
+             <i class="fa fa-instagram" ></i>
+             <i class="fa fa-twitter" ></i>
+             <i class="fa fa-linkedin" ></i>
+        </div>
+
+        <p>Made by  <i class="fa fa-heart-o"></i> Niraj Saraf </p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+ <!---JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-280px";
+    }
+
+</script>
+</body>
+</html>
